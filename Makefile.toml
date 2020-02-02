@@ -1,6 +1,6 @@
 [tasks.bad]
-script = ["npx webpack-dev-server --config webpack.config.js"]
+script = ["npx webpack-dev-server --config webpack.config.js --open --port 8080"]
 
 [tasks.good]
 env = { CARGO_MAKE_SCRIPT_FORCE_PIPE_STDIN = true }
-script = ["npx webpack-dev-server --config webpack.config.js"]
+script = ["npx webpack-dev-server --config webpack.config.js --open --port 8080"]
